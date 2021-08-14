@@ -11,5 +11,8 @@ spec:
   - name: port-2888
     port: 2888
     protocol: TCP
+  - name: port-3888
+    port: 3888
+    protocol: TCP    
   selector:
     app: zookeeper1
