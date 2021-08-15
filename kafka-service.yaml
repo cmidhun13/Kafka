@@ -5,14 +5,14 @@ metadata:
   labels:  
     app: kafkaApp 
 spec:  
-  ports:  
-    - name:9092 
-      port: 9092 
+  ports:
+    - name:9092
+      port: 9092
       targetPort: 9092
      protocol: TCP
-    - name: 2181 
-      port: 2181 
-      targetPort: 2181 
-  selector:  
-    app: kafkaApp 
+    - name: 2181
+      port: 2181
+      targetPort: 2181
+  selector:
+    app: kafkaApp
   type: LoadBalancer
