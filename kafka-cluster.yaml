@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: kafka1
-        image: bitnami/kafka
+        image: astridproject/kafka
         ports:
         - containerPort: 9092
         env:
