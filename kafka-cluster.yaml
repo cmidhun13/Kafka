@@ -22,6 +22,6 @@ spec:
         - name: KAFKA_ADVERTISED_PORT
           value: "9092"
         - name: KAFKA_ADVERTISED_HOST_NAME
-          value: af70af15c81054c3c94db78795670ad2-744011186.us-east-2.elb.amazonaws.com
+          value: 3.134.76.159
         - name: KAFKA_ZOOKEEPER_CONNECT
           value: zoo1:2181
