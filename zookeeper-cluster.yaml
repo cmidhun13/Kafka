@@ -13,11 +13,9 @@ spec:
     spec:
       containers:
       - name: zookeeper1
-        image: digitalwonderland/zookeeper
+        image: zookeeper:latest
         ports:
         - containerPort: 2181
-        - containerPort: 2888
-        - containerPort: 3888
         env:
         - name: ZOOKEEPER_ID
           value: "1"
